@@ -7,6 +7,8 @@ class DataValues {
       'This is a single web page containing links to all my online profiles. Click on the buttons below to navigate to the desired section.';
   static const String appDeveloper = 'Dileepa Bandara';
   static const String appPackage = 'dev.dileepabandara.profile';
+  static const String appVersion = '1.1.0';
+  static const String appBuildNumber = '1';
 
   // Web domains
   static Uri devURL = Uri.parse('https://dileepabandara.dev');
