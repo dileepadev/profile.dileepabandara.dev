@@ -3,8 +3,12 @@ class DataValues {
   static const String appName = 'Dileepa Bandara | Profile';
   static const String appNameLong = 'profile.dileepabandara.dev';
   static const String appDescription =
-      'Hello there! My name is Dileepa Bandara. I\'m a computing student, solution developer and community volunteer. '
-      'This is a single web page containing links to all my online profiles. Click on the buttons below to navigate to the desired section.';
+      'This is a single web page containing links to all my online profiles.';
+  static const String appDescriptionLong =
+      'Hello there! My name is Dileepa Bandara. I\'m a computing student, solution developer, and community volunteer. '
+      'This is a single web page containing links to all my online profiles. Click on the buttons below to navigate to the desired section. '
+      'I\'d love to connect with you and have a friendly conversation to build a strong professional relationship or become friends! '
+      'So, feel free to connect with me via any of the platforms listed below, and I\'d love to invite you to visit these profiles.';
   static const String appDeveloper = 'Dileepa Bandara';
   static const String appPackage = 'dev.dileepabandara.profile';
   static const String appVersion = '1.1.0';

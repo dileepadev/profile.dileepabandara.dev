@@ -21,7 +21,8 @@ class Credentials extends StatelessWidget {
           children: [
             const TextSectionHead(
               title: 'Credentials',
-              subtitle: 'These are the places I share my digital credentials',
+              subtitle:
+                  'Online digital credential platforms allow us to share our achievements. So, I\'d rather use these.',
             ),
             const SizedBox(height: 20.0),
             CardProfile(

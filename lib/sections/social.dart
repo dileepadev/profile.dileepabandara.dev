@@ -21,7 +21,8 @@ class Social extends StatelessWidget {
           children: [
             const TextSectionHead(
               title: 'Social',
-              subtitle: 'These are the places I use to socialize.',
+              subtitle:
+                  'I personally am not an active social media user, but I love to create profiles and get the experience. So, I thought about these platforms.',
             ),
             const SizedBox(height: 20.0),
             CardProfile(

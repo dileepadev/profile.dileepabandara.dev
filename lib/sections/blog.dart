@@ -21,7 +21,8 @@ class Blog extends StatelessWidget {
           children: [
             const TextSectionHead(
               title: 'Blog',
-              subtitle: 'These are the places I write things.',
+              subtitle:
+                  'Sometimes I love to write things, and these places inspire me to write blogs.',
             ),
             const SizedBox(height: 20.0),
             CardProfile(

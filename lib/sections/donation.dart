@@ -21,7 +21,8 @@ class Donation extends StatelessWidget {
           children: [
             const TextSectionHead(
               title: 'Donation',
-              subtitle: 'These are the places I use to receive donations.',
+              subtitle:
+                  'If you want to send some donations to me, I think these places will provide the service.',
             ),
             const SizedBox(height: 20.0),
             CardProfile(

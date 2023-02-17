@@ -89,7 +89,7 @@ class Header extends StatelessWidget {
                   horizontal: MediaQuery.of(context).size.width * 0.1),
               child: SelectableText(
                 textAlign: TextAlign.center,
-                DataValues.appDescription,
+                DataValues.appDescriptionLong,
                 style: AppThemeData.themeData.textTheme.bodyText1,
               ),
             ),

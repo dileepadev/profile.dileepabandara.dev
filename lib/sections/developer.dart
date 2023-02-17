@@ -21,7 +21,8 @@ class Developer extends StatelessWidget {
           children: [
             const TextSectionHead(
               title: 'Developer',
-              subtitle: 'These are the places I use to develop things.',
+              subtitle:
+                  'The majority of tech professionals use these platforms to showcase their work. You might also find me here.',
             ),
             const SizedBox(height: 20.0),
             CardProfile(

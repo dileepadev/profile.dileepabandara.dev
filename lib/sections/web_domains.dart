@@ -21,7 +21,8 @@ class WebDomains extends StatelessWidget {
           children: [
             const TextSectionHead(
               title: 'Web Domains',
-              subtitle: 'These are the domains I own and manage.',
+              subtitle:
+                  'I use these domains for hosting my specific web-based sites, pages, and projects.',
             ),
             const SizedBox(height: 20.0),
             CardProfile(
