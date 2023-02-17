@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 
-import 'app_theme.dart';
-import 'home_page.dart';
+import 'statics/data_values.dart';
+import 'theme/app_theme_data.dart';
+import 'page/home_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -13,9 +14,9 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Dileepa Bandara | Profile',
+      title: DataValues.appName,
+      theme: AppThemeData.themeData,
       debugShowCheckedModeBanner: false,
-      theme: AppThemeData.darkTheme,
       home: const HomePage(),
     );
   }

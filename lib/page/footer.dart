@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:url_launcher/url_launcher.dart';
 
-import 'data_values.dart';
-import 'app_theme.dart';
+import '../statics/data_values.dart';
+import '../theme/app_theme_data.dart';
 
 class Footer extends StatelessWidget {
   const Footer({Key? key}) : super(key: key);
@@ -19,7 +19,7 @@ class Footer extends StatelessWidget {
           child: Text(
             'Get Source Code',
             style: TextStyle(
-              color: AppThemeData.primaryColor,
+              color: AppThemeData.textPrimary,
               fontSize: Theme.of(context).textTheme.bodyMedium!.fontSize,
               fontWeight: Theme.of(context).textTheme.bodyMedium!.fontWeight,
             ),
@@ -38,6 +38,13 @@ class Footer extends StatelessWidget {
         children: [
           const SizedBox(
             height: 40,
+          ),
+          SelectableText(
+            '${DataValues.appName} (v${DataValues.appVersion})',
+            style: Theme.of(context).textTheme.bodyMedium,
+          ),
+          const SizedBox(
+            height: 10,
           ),
           Row(
             mainAxisAlignment: MainAxisAlignment.center,
